@@ -1,0 +1,90 @@
+.button {
+  /*button colour and sizing*/
+  background-color: #f0e6ea;
+  padding: 5px 10px;
+  border-radius: 5px; /*rounded corners*/
+  cursor: pointer;
+}
+header {
+  /*header colour and margin*/
+  background-color: #ff80a6;
+  padding: 10px;
+}
+/*text colour and centering*/
+.center-text {
+  text-align: center;
+}
+.bold {
+  /*Bold text*/
+  font-weight: bold;
+}
+img {
+  /*sizing PROJECT images*/
+  width: 300px;
+  height: 200px;
+}
+h1 {
+  /*h1 text colour*/
+  color: #602437;
+}
+h3 {
+  /*h3 text colour*/
+  color: #fff0f3;
+}
+.welcome {
+  /*top of HOME body colour and text size*/
+  background-color: #ffb3c6;
+  font-size: 20px;
+  padding: 100px 20px;
+}
+.story {
+  /*bottom of HOME body colour and text size*/
+  background-color: #ffe0e6;
+  font-size: 20px;
+  padding: 100px 20px;
+}
+.profile img {
+  /*sizing my profile photo*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.about {
+  /*top half of ABOUT page background colour and text size*/
+  background-color: #ffb3c6;
+  font-size: 20px;
+  padding: 40px 20px;
+}
+.skills {
+  /*bottom half of ABOUT page background colour and text size*/
+  background-color: #ffe0e6;
+  font-size: 20px;
+  padding: 50px 20px;
+}
+.project {
+  /*top of PROJECT body colour and text size*/
+  background-color: #ffb3c6;
+  font-size: 20px;
+  padding: 40px 20px;
+}
+.blender {
+  /*bottom of PROJECT body colour and text size*/
+  background-color: #ffe0e6;
+  font-size: 20px;
+  padding: 50px 20px;
+}
+.ombre {
+  /*CONTACT page body colour gradient*/
+  background: linear-gradient(to bottom, #ff8fa3, #e9b26a, #ffb3c1, #ffccd5, #fff0f3);
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  /*footer colour and margin*/
+  background-color: #ff80a6;
+  padding: 10px;
+}

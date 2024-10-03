@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title of webpage displayed on browser tab-->
+    <title>Contact Me</title>
+    <!--Link to external styling sheet-->
+    <link rel="stylesheet" type="text/css" href="/Assigment 1/style.css" />
+  </head>
+  <!--Page header-->
+  <body>
+<header>
+    <nav>
+        <!--Navigation bar to go to different pages in my website-->
+        <button class="button"><a href="Home.html">Home</a></button>
+        <button class="button"><a href="About.html">About Me</a></button>
+        <button class="button"><a href="Project.html">My Projects</a></button>     
+        <button class="button"><a href="Contact.html">Contact Me</a></button>
+        <button class="button"><a href="https://github.com/mayaand1/Web-Script-Programming.git" target="_blank">Visit My Live Portfolio</a></button>
+    </nav>
+    </header>
+    <div class="ombre">
+        <!--Heading for my contact me page-->
+      <!--Center form header-->
+      <h1 class="center-text">Contact me</h1>
+      <p class="center-text">Send me your questions, comments or project related suggestions.</p>
+      <p class="center-text">Thank you for visiting my website, see you again sometime soon!</p>
+      <br>
+    <!--<form> is used to create a form in HTML where users can input information-->
+    <form action="mailto@emal.com" ?subject="Signup" Form method="post">
+      <!--Placeholder show gray text inside of text box prompting user what to type in-->
+      <!--Required tells users they must fill that in before submitting form-->
+        <!--Enter name-->
+      <p class="center-text">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name here" size="40" required/>
+      </p>
+      <!--Enter email-->
+      <p class="center-text">
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email here" size="40" required/>
+      </p>
+      <!--Enter phone number-->
+      <p class="center-text">
+        <label for="phone">Phone Number:</label>
+        <input type="number" name="phone" placeholder="Enter your phone number here" size="40"/>
+        </p>
+        <!--Enter message-->
+      <p class="center-text">
+        <label for="comments">Message:</label><br>
+        <textarea name="message" placeholder="Enter a message for Maya here!" cols="50" rows="5"></textarea>
+      </p>
+      <br>
+       <!--Button to submit and reset the form-->
+        <p class="center-text"><input type="submit" value="Submit form"></p>
+        <p class="center-text"><input type="reset" value="Reset form"></p>
+    </form>
+   </div>
+    <!--Footer section containing navigation and copyright-->
+    <footer>
+      <nav>
+        <button class="button"><a href="Home.html">Home</a></button>
+        <button class="button"><a href="About.html">About Me</a></button>
+        <button class="button"><a href="Project.html">My Projects</a></button>
+        <button class="button"><a href="Contact.html">Contact Me</a></button>
+        <button class="button"><a href="https://github.com/mayaand1/Web-Script-Programming.git" target="_blank">Visit My Live Portfolio</a></button>
+      </nav>
+      <p> © 2024 <a href="mailto:maya.anderson1@ontariotechu.net"><b>Maya Anderson</b></a>, made with ♥ </p>
+    </footer>
+  </body>
+</html>
