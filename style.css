@@ -1,28 +1,23 @@
-/* Sizing for phones */
-@media only screen and (max-width: 600px) {
-  .button {
-      padding: 10px; /* Larger button padding */
-  }
-}
-
-/* Sizing for Tablets */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    .button {
-        padding: 12px; /* Adjust button padding */
-    }
-}
-/* Sizing for Laptops */
-@media only screen and (min-width: 901px) {
-  .button {
-      padding: 15px; /* Standard button padding */
-  }
-}
 .button {
   /*button colour and sizing*/
   background-color: #f0e6ea;
   padding: 5px 10px;
   border-radius: 5px; /*rounded corners*/
   cursor: pointer;
+}
+/* Sizing for phones */
+@media (max-width: 480px) {
+  .button {
+      width: 150px; /* Adjust width for mobile */
+      height: 100px; /* Adjust height for mobile */
+  }
+}
+/* Sizing for Tablets */
+@media (max-width: 768px) {
+  .button {
+      width: 100px; /* Adjust width for tablet */
+      height: 50px; /* Adjust height for mobile */
+  }
 }
 header {
   /*header colour and margin*/
