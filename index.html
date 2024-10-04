@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="phone.css" media="only screen and (max-width: 600px)">
     <!-- Tablet CSS -->
     <link rel="stylesheet" href="tablet.css" media="only screen and (min-width: 601px) and (max-width: 900px)">
-    <!-- Laptop CSS -->
-    <link rel="stylesheet" href="laptop.css" media="only screen and (min-width: 901px)">
+       <!-- Laptop CSS -->
+       <link rel="stylesheet" href="laptop.css" media="only screen and (min-width: 901px)">
 </head>
 <body>
 <!--Page header-->
@@ -36,7 +36,15 @@
 <!--div class for bottom of page-->
 <div class="story">
 <h1 class="center-text">Get to know more about me!</h1>
-<!--ADD VIDEO HERE!!-->
+<!-- The width and height of the video player -->
+<video width="640" height="360" controls poster="Maya.jpg">
+    <!--First video file-->
+    <source src="videos/intro.mp4" type="video/mp4">
+    <!--Alternative video file-->
+    <source src="videos/intro.ogg" type="video/ogg">
+    <!-- This message is displays if the user's browser does not support the video element -->
+    Your browser does not support the video tag.
+</video>
 </div>
 <!--Footer section containing navigation and copyright-->
 <footer>
